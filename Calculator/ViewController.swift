@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     var firstOperand: Int = 0
     var operation: String = ""
     var secondOperand: Int = 0
+    var isResult: Bool = false
     
     @IBAction func didPressButton(_ sender: Any) {
         guard let button = sender as? UIButton else{
@@ -25,7 +26,13 @@ class ViewController: UIViewController {
         guard let text = resultLabel.text else{
             return
         }
-        resultLabel.text = text + buttonText
+        if isResult{
+            resultLabel.text=buttonText
+            isResult = false
+        }
+        else{
+            resultLabel.text = text + buttonText
+        }
     }
     
     @IBAction func didPressPlus(_ sender: Any) {
@@ -35,8 +42,13 @@ class ViewController: UIViewController {
         guard let text = resultLabel.text else{
             return
         }
-        firstOperand = Int(text.trimmingCharacters(in: .whitespaces)) ?? 0
-        resultLabel.text = "0"
+        if operationLabel.text != ""{
+            self.didPressEqual(sender)
+        }else{
+            firstOperand = Int(text.trimmingCharacters(in: .whitespaces)) ?? 0
+            
+        }
+        isResult = true
         operationLabel.text = button.titleLabel?.text
         operation = button.titleLabel?.text ?? ""
     }
@@ -79,6 +91,7 @@ class ViewController: UIViewController {
             operationLabel.text = ""
             operation = ""
             firstOperand = firstOperand + secondOperand
+            isResult = true
         default:
             operationLabel.text = ""
         }
