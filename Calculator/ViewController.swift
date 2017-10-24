@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         guard let text = resultLabel.text else{
             return
         }
-        firstOperand = Int(text) ?? 0
+        firstOperand = Int(text.trimmingCharacters(in: .whitespaces)) ?? 0
         resultLabel.text = "0"
         operationLabel.text = button.titleLabel?.text
         operation = button.titleLabel?.text ?? ""
@@ -74,29 +74,31 @@ class ViewController: UIViewController {
         secondOperand = Int(secondOperandText) ?? 0
         
         switch operation{
-            case "+":
-                    resultLabel.text = "\(firstOperand + secondOperand)"
-                    operationLabel.text = ""
+        case "+":
+            resultLabel.text = "\(firstOperand + secondOperand)"
+            operationLabel.text = ""
+            operation = ""
+            firstOperand = firstOperand + secondOperand
         default:
             operationLabel.text = ""
-            }
-            
         }
+        
+    }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.resultLabel.text = " "
+        self.resultLabel.text = ""
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-       
-
+    
+    
     
     
     
