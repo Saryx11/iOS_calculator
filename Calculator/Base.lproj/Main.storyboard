@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,11 +19,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y7Y-tU-bRm">
-                                <rect key="frame" x="0.0" y="237" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="10" width="834" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfk-uO-ddd">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -36,7 +36,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bpf-UM-F9a">
-                                        <rect key="frame" x="50" y="0.0" width="325" height="50"/>
+                                        <rect key="frame" x="50" y="0.0" width="784" height="50"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -45,13 +45,13 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WeT-hA-VSl">
-                                <rect key="frame" x="0.0" y="292" width="375" height="375"/>
+                                <rect key="frame" x="0.0" y="80" width="834" height="1032"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wr2-7m-ipS">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="94"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="834" height="258"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mtl-ed-xT6">
-                                                <rect key="frame" x="0.0" y="0.0" width="94" height="94"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.19860491071428571" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="1">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -61,7 +61,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qaf-bv-vOW">
-                                                <rect key="frame" x="94" y="0.0" width="93.5" height="94"/>
+                                                <rect key="frame" x="208.5" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.1986049107" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" red="0.1986049107" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="2">
@@ -72,7 +72,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="de3-9R-kxa">
-                                                <rect key="frame" x="187.5" y="0.0" width="94" height="94"/>
+                                                <rect key="frame" x="417" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.1986049107" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="3">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -82,7 +82,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZX2-WA-qEu">
-                                                <rect key="frame" x="281.5" y="0.0" width="93.5" height="94"/>
+                                                <rect key="frame" x="625.5" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="+">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -92,12 +92,20 @@
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="wr2-7m-ipS" secondAttribute="height" multiplier="10:1" id="um4-9a-bi2"/>
+                                        </constraints>
+                                        <variation key="heightClass=regular">
+                                            <mask key="constraints">
+                                                <exclude reference="um4-9a-bi2"/>
+                                            </mask>
+                                        </variation>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bPi-oJ-CQZ">
-                                        <rect key="frame" x="0.0" y="94" width="375" height="93.5"/>
+                                        <rect key="frame" x="0.0" y="258" width="834" height="258"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LI-UG-1DC">
-                                                <rect key="frame" x="0.0" y="0.0" width="94" height="93.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.1986049107" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="4">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -107,7 +115,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEA-dp-rdf">
-                                                <rect key="frame" x="94" y="0.0" width="93.5" height="93.5"/>
+                                                <rect key="frame" x="208.5" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.1986049107" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="5">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -117,7 +125,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYQ-qc-619">
-                                                <rect key="frame" x="187.5" y="0.0" width="94" height="93.5"/>
+                                                <rect key="frame" x="417" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.1986049107" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="6">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -127,7 +135,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiW-Q1-GVp">
-                                                <rect key="frame" x="281.5" y="0.0" width="93.5" height="93.5"/>
+                                                <rect key="frame" x="625.5" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="-">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -139,10 +147,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ZKd-Mn-22O">
-                                        <rect key="frame" x="0.0" y="187.5" width="375" height="94"/>
+                                        <rect key="frame" x="0.0" y="516" width="834" height="258"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgH-0k-KaW">
-                                                <rect key="frame" x="0.0" y="0.0" width="94" height="94"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.1986049107" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="7">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -152,7 +160,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huD-VX-xMS">
-                                                <rect key="frame" x="94" y="0.0" width="93.5" height="94"/>
+                                                <rect key="frame" x="208.5" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.1986049107" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="8">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -162,7 +170,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wap-XM-AKb">
-                                                <rect key="frame" x="187.5" y="0.0" width="94" height="94"/>
+                                                <rect key="frame" x="417" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.1986049107" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="9">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -172,7 +180,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5W-Zd-4Gc">
-                                                <rect key="frame" x="281.5" y="0.0" width="93.5" height="94"/>
+                                                <rect key="frame" x="625.5" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="X">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -184,10 +192,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ThN-qH-nnq">
-                                        <rect key="frame" x="0.0" y="281.5" width="375" height="93.5"/>
+                                        <rect key="frame" x="0.0" y="774" width="834" height="258"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3W2-Q8-MLN">
-                                                <rect key="frame" x="0.0" y="0.0" width="94" height="93.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -197,7 +205,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Jg-eM-w1a">
-                                                <rect key="frame" x="94" y="0.0" width="93.5" height="93.5"/>
+                                                <rect key="frame" x="208.5" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.1986049107" green="0.49140624999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="0">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -207,7 +215,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2TM-c2-Er9">
-                                                <rect key="frame" x="187.5" y="0.0" width="94" height="93.5"/>
+                                                <rect key="frame" x="417" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="=">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -217,7 +225,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCB-jn-RWN">
-                                                <rect key="frame" x="281.5" y="0.0" width="93.5" height="93.5"/>
+                                                <rect key="frame" x="625.5" y="0.0" width="208.5" height="258"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="/">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -232,6 +240,21 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WeT-hA-VSl" secondAttribute="height" multiplier="1:1" id="whx-IH-sVa"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="whx-IH-sVa"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="whx-IH-sVa"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="whx-IH-sVa"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -239,10 +262,25 @@
                             <constraint firstItem="WeT-hA-VSl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4OW-1L-inv"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WeT-hA-VSl" secondAttribute="bottom" id="B8L-3i-cKC"/>
                             <constraint firstItem="WeT-hA-VSl" firstAttribute="top" secondItem="Y7Y-tU-bRm" secondAttribute="bottom" constant="5" id="Gqg-xt-qC5"/>
+                            <constraint firstItem="Y7Y-tU-bRm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="10" id="H1e-bU-i8w"/>
                             <constraint firstAttribute="trailing" secondItem="WeT-hA-VSl" secondAttribute="trailing" id="MT6-EN-GVW"/>
                             <constraint firstItem="Y7Y-tU-bRm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NR6-mf-YT7"/>
                             <constraint firstAttribute="trailing" secondItem="Y7Y-tU-bRm" secondAttribute="trailing" id="eHu-I3-Al2"/>
+                            <constraint firstItem="WeT-hA-VSl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="80" id="wcF-MG-C2a"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="H1e-bU-i8w"/>
+                                <exclude reference="wcF-MG-C2a"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="H1e-bU-i8w"/>
+                                <exclude reference="Gqg-xt-qC5"/>
+                                <include reference="wcF-MG-C2a"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="operationLabel" destination="Nfk-uO-ddd" id="WBw-EQ-Gxe"/>
