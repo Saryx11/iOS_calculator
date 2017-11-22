@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F4FD0AC8751816DFAE8705B /* Pods_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2418222745236CA08AD9B14C /* Pods_CalculatorUITests.framework */; };
+		9472A799AE3E8527FBF2B60F /* Pods_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A3BB8FE120AF97E4165AE /* Pods_CalculatorTests.framework */; };
+		E94C687B1C3ED28E2C3324BF /* Pods_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5A5A096D77FB303233BFDB /* Pods_Calculator.framework */; };
 		FC0619551F9E1D2600DEB981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0619541F9E1D2600DEB981 /* AppDelegate.swift */; };
 		FC0619571F9E1D2600DEB981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0619561F9E1D2600DEB981 /* ViewController.swift */; };
 		FC06195A1F9E1D2600DEB981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0619581F9E1D2600DEB981 /* Main.storyboard */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15C6D4EF06D209D29D9132EB /* Pods-CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalculatorTests/Pods-CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		22389841F9DCB6FE3CE88730 /* Pods-CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalculatorUITests/Pods-CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		232A3BB8FE120AF97E4165AE /* Pods_CalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2418222745236CA08AD9B14C /* Pods_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A19DDDAC776B44D6825E1AE /* Pods-Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calculator/Pods-Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		7B5A5A096D77FB303233BFDB /* Pods_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		868531682194E5DAD691D903 /* Pods-CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalculatorTests/Pods-CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3621C558BC33DF1AAF9468A /* Pods-Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calculator/Pods-Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		EEB3AB6FF393F1382037C155 /* Pods-CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalculatorUITests/Pods-CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FC0619511F9E1D2600DEB981 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0619541F9E1D2600DEB981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC0619561F9E1D2600DEB981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94C687B1C3ED28E2C3324BF /* Pods_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9472A799AE3E8527FBF2B60F /* Pods_CalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4FD0AC8751816DFAE8705B /* Pods_CalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79EA834389A27F619DD9BC87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3621C558BC33DF1AAF9468A /* Pods-Calculator.debug.xcconfig */,
+				5A19DDDAC776B44D6825E1AE /* Pods-Calculator.release.xcconfig */,
+				868531682194E5DAD691D903 /* Pods-CalculatorTests.debug.xcconfig */,
+				15C6D4EF06D209D29D9132EB /* Pods-CalculatorTests.release.xcconfig */,
+				22389841F9DCB6FE3CE88730 /* Pods-CalculatorUITests.debug.xcconfig */,
+				EEB3AB6FF393F1382037C155 /* Pods-CalculatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FABBAD1C8B7C599E0F9E2B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B5A5A096D77FB303233BFDB /* Pods_Calculator.framework */,
+				232A3BB8FE120AF97E4165AE /* Pods_CalculatorTests.framework */,
+				2418222745236CA08AD9B14C /* Pods_CalculatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC0619481F9E1D2600DEB981 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				FC0619681F9E1D2600DEB981 /* CalculatorTests */,
 				FC0619731F9E1D2600DEB981 /* CalculatorUITests */,
 				FC0619521F9E1D2600DEB981 /* Products */,
+				79EA834389A27F619DD9BC87 /* Pods */,
+				FABBAD1C8B7C599E0F9E2B1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC0619791F9E1D2600DEB981 /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
+				222CBE672A267A96430692A9 /* [CP] Check Pods Manifest.lock */,
 				FC06194D1F9E1D2600DEB981 /* Sources */,
 				FC06194E1F9E1D2600DEB981 /* Frameworks */,
 				FC06194F1F9E1D2600DEB981 /* Resources */,
+				FCC342E41FC2EABE00D58AE1 /* ShellScript */,
+				AC648A28AE6F5EAAE6807ABB /* [CP] Embed Pods Frameworks */,
+				CCD873C01C60EDD8B10CD079 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC06197C1F9E1D2600DEB981 /* Build configuration list for PBXNativeTarget "CalculatorTests" */;
 			buildPhases = (
+				E480A49172D16662C1A85203 /* [CP] Check Pods Manifest.lock */,
 				FC0619611F9E1D2600DEB981 /* Sources */,
 				FC0619621F9E1D2600DEB981 /* Frameworks */,
 				FC0619631F9E1D2600DEB981 /* Resources */,
+				001554A935A58B20811AEBA8 /* [CP] Embed Pods Frameworks */,
+				03CC5CE1657CB694BB5ECA22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC06197F1F9E1D2600DEB981 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */;
 			buildPhases = (
+				C66D77E085417AEE741FDF2B /* [CP] Check Pods Manifest.lock */,
 				FC06196C1F9E1D2600DEB981 /* Sources */,
 				FC06196D1F9E1D2600DEB981 /* Frameworks */,
 				FC06196E1F9E1D2600DEB981 /* Resources */,
+				424BE0CC6BAA6CBBF51B7657 /* [CP] Embed Pods Frameworks */,
+				4C3BAC75F272876CBA014979 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +243,8 @@
 				TargetAttributes = {
 					FC0619501F9E1D2600DEB981 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = K4BW9785S4;
+						ProvisioningStyle = Manual;
 					};
 					FC0619641F9E1D2600DEB981 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -253,6 +304,171 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		001554A935A58B20811AEBA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalculatorTests/Pods-CalculatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		03CC5CE1657CB694BB5ECA22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalculatorTests/Pods-CalculatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		222CBE672A267A96430692A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		424BE0CC6BAA6CBBF51B7657 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalculatorUITests/Pods-CalculatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C3BAC75F272876CBA014979 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalculatorUITests/Pods-CalculatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC648A28AE6F5EAAE6807ABB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Calculator/Pods-Calculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
+				"${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSCrash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calculator/Pods-Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66D77E085417AEE741FDF2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD873C01C60EDD8B10CD079 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calculator/Pods-Calculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E480A49172D16662C1A85203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC342E41FC2EABE00D58AE1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC06194D1F9E1D2600DEB981 /* Sources */ = {
@@ -410,30 +626,43 @@
 		};
 		FC06197A1F9E1D2600DEB981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3621C558BC33DF1AAF9468A /* Pods-Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K4BW9785S4;
+				EQUAL_COLOR = blue;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = saryx11.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.formation.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40c7d168-5a82-495a-9eef-63889db6b980";
+				PROVISIONING_PROFILE_SPECIFIER = mobileProvisionFormationBon;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		FC06197B1F9E1D2600DEB981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A19DDDAC776B44D6825E1AE /* Pods-Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K4BW9785S4;
+				EQUAL_COLOR = red;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = saryx11.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.formation.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40c7d168-5a82-495a-9eef-63889db6b980";
+				PROVISIONING_PROFILE_SPECIFIER = mobileProvisionFormationBon;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		FC06197D1F9E1D2600DEB981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868531682194E5DAD691D903 /* Pods-CalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +677,7 @@
 		};
 		FC06197E1F9E1D2600DEB981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C6D4EF06D209D29D9132EB /* Pods-CalculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +692,7 @@
 		};
 		FC0619801F9E1D2600DEB981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22389841F9DCB6FE3CE88730 /* Pods-CalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CalculatorUITests/Info.plist;
@@ -475,6 +706,7 @@
 		};
 		FC0619811F9E1D2600DEB981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB3AB6FF393F1382037C155 /* Pods-CalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CalculatorUITests/Info.plist;
@@ -505,6 +737,7 @@
 				FC06197B1F9E1D2600DEB981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC06197C1F9E1D2600DEB981 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +746,7 @@
 				FC06197E1F9E1D2600DEB981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC06197F1F9E1D2600DEB981 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +755,7 @@
 				FC0619811F9E1D2600DEB981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
