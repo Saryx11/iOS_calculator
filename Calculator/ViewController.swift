@@ -77,8 +77,6 @@ class ViewController: UIViewController {
     @IBAction func didPressClear(_ sender: Any) {
         resultLabel.text = ""
         operationLabel.text = ""
-        var s: String!
-        s.removeAll()
     }
 
     @IBAction func didPressEqual(_ sender: Any) {
